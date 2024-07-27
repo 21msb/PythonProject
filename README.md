@@ -13,7 +13,11 @@ This idea helps users to access anything directly without taking time to search 
 
  
 ### The important functionalities used in this project are: 
-- def display_bootcamp_details:
-  
-- 
+- def display_bootcamp_details():
+
+- def display_program_details():
+
+- def meetings():
+This is a simple function that provides the data for the meetings. This function returns a dictionary where each key is the name of a meeting, and the value is a list containing detailed information about that meeting. Users can select a meeting from a dropdown list to see its details and click an "Enroll" button to go to the enrollment page for that meeting. 
+
 
