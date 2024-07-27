@@ -17,12 +17,12 @@ is an open-source Python library that makes it easy to create and share custom w
 
 #### Why we chose Streamlit?
 1. Ease of Use.
-   - Simple to Code.
-   - Familiar Syntax
+- Simple to Code.
+- Familiar Syntax
 2. Quick Development.
 3. Interactive Widgets.
 
-### The important functionalities used in this project are: 
+## The important functionalities used in this project are: 
 - def display_bootcamp_details and def display_program_details:
   These two functions uses a build in function .write() to write the keys and values from the dictionaries bootcamp and program when the user click on one of them.
 
