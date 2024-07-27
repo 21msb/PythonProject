@@ -8,12 +8,10 @@ def load_logo_image(image_path):
     return encoded_string
 
 # Handling bot response
-def get_response(user_input):
-    if user_input.lower() == "hi":
-        return """Welcome to TuwaiqBot! \n
-        Please select from the list below what you would like to know?"""
-    else:
-        return "I'm sorry, I only respond to specific words'."
+get_response = lambda user_input: (
+    """Welcome to TuwaiqBot! \n
+    Please select from the list below what you would like to know?""" if user_input.lower() == "hi" else "I'm sorry, I only respond to specific words'."
+)
 
 # Initialize session state variables
 if 'selected_option' not in st.session_state:
@@ -222,8 +220,8 @@ if st.session_state['selected_option']:
         raghad_number = 966569566905
         hatoon_number = 966550275960
         musaab_number = 966500283891
-        st.markdown(f"- [Raghad] () - {raghad_number}")
-        st.markdown(f"- [Mussab] () - {musaab_number} ")
+        st.markdown(f"- [Raghad Almalki](https://www.linkedin.com/in/raghad-almalki-aa0aa71b2/) - {raghad_number}")
+        st.markdown(f"- [Mussab]() - {musaab_number} ")
         st.markdown(f"- [Hatoon Aloqaily-](https://www.linkedin.com/in/hatoon-al-oqaily-73b808253/) - {hatoon_number}")
 
     if st.button("🔙"):
