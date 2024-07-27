@@ -32,4 +32,8 @@ This idea helps users to access anything directly without taking time to search 
   This is a simple function that provides the data for the meetings. This function returns a dictionary where each key is the name of a meeting, and the value is a list containing detailed information 
   about that meeting. Users can select a meeting from a dropdown list to see its details and click an "Enroll" button to go to the enrollment page for that meeting. 
 
-
+### Name of group members:
+- Hatoon Aloqaily
+- Musab 
+- Raghad Almalki
+- Hamad
