@@ -4,5 +4,6 @@
 This idea helps users to access anything directly without taking time to search in the website.
 
 ## The important functionalities used in this project are: 
+- def display_bootcamp_details
 - 
 
