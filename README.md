@@ -18,6 +18,9 @@ This idea helps users to access anything directly without taking time to search 
   These two functions uses a build in function .write() to write the keys and values from the dictionaries bootcamp and program when the user click on one of them.
 
 - elif selected_option == "🧐Ask us!":
+  This part creates a "Contact Us" form in our website, where users can reach out to us by selecting the "🧐Ask us!" option. It displays a "Let's get in touch" 
+  title then shows a form where users can enter their name, email, and message. When the user fills in the form and clicks the "Send" button, their message is sent to our 
+  email via "formsubmit.co.".
   
 - elif selected_option == "✌️Join us as a Trainee!":
   This selection will make the bot return the content written in the .markdown function.
