@@ -11,7 +11,7 @@ This idea helps users to access anything directly without taking time to search 
 4. The user also can fill a form to contact directly with the academy.
 5. If the user want to join as a trainee in the academy, he/she can select the option join as a trainee.
 
-## Tools Used in the Project:
+## Tools used in the Project:
 #### Streamlit:
 Is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science.
 
