@@ -10,7 +10,9 @@ def load_logo_image(image_path):
 # Handling bot response
 get_response = lambda user_input: (
     """Welcome to TuwaiqBot! \n
-    Please select from the list below what you would like to know?""" if user_input.lower() == "hi" else "I'm sorry, I only respond to specific words'."
+    Please select from the list below what you would like to know?""" 
+    if user_input.lower() == "hi" 
+    else "I'm sorry, I only respond to specific words'."
 )
 
 # Initialize session state variables
@@ -181,7 +183,9 @@ if st.session_state['selected_option']:
 
     # Display events details
     elif selected_option == "🤝🏼Events":
-        meetings = {
+        def meetings():
+
+            return {
             "Site Reliability Engineering (SRE) Roles and Responsibilities": 
                 ["2024-08-01", "07:30 PM", "Riyadh", "https://tuwaiq.edu.sa/bootcamp/yBQvgAMv/view"],
             "How to start a successful career journey?": 
@@ -196,6 +200,8 @@ if st.session_state['selected_option']:
                 ["2024-08-06", "07:30 PM",  "Riyadh", "https://tuwaiq.edu.sa/bootcamp/892YPZr3/view"],
         }
 
+        meetings = meetings()
+
         meeting_names = list(meetings.keys())
         selected_meeting = st.selectbox("Select an event:", meeting_names)
 
@@ -205,12 +211,30 @@ if st.session_state['selected_option']:
             st.write(f"**Time:** {meeting_info[1]}")
             st.write(f"**Location:** {meeting_info[2]}")
             enroll_link = meeting_info[3]
-            st.markdown(f'<a href="{enroll_link}" target="_blank"><button style="background-color:#809870; color:white;">Enroll</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="{enroll_link}" target="_blank"><button style="background-color: #8564B3; color: white; padding: 8px 18px; border: none; border-radius: 5px; cursor: pointer;">Enroll</button></a>', unsafe_allow_html=True)
    
     # Display ask us details
     elif selected_option == "🧐Ask us!":
-        st.markdown("You can ask us about anything related to our academy through this [form](https://forms.gle/6YJv5YnTmRqWqJn37) :)")
+        st.write("----")
 
+        contact_form = """
+        <p>Let's get in touch🤝🏻</p>
+       <form action="https://formsubmit.co/your@email.com" method="POST" style="background-color: #f2f2f2; padding: 20px; border-radius: 10px; max-width: 500px; margin: auto;">
+        <input type="hidden" name="_captcha" value="false"> 
+        <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"> <br>
+        <input type="email" name="email" placeholder="Your email" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"> <br>
+        <textarea name="message" placeholder="Your message here" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"></textarea> <br>
+        <button type="submit" style="background-color: #8564B3; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-left: 120px;">Send</button> <br>
+        </form> <br>
+
+        """
+
+        left_c, right_c = st.columns(2)
+        with left_c:
+            st.markdown(contact_form, unsafe_allow_html=True)
+        with right_c:
+            st.empty()
+    
     # Display join us details
     elif selected_option == "✌️Join us as a Trainee!":
         st.markdown("Kindly fill out the [form](https://forms.gle/6YJv5YnTmRqWqJn37) and become a part of our incredible trainees!")
