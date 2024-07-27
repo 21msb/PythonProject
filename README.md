@@ -13,7 +13,7 @@ This idea helps users to access anything directly without taking time to search 
 
 ## Tools Used in the Project:
 #### Streamlit:
-is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science.
+Is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science.
 
 #### Why we chose Streamlit?
 1. Ease of Use.
