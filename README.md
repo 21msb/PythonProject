@@ -43,14 +43,14 @@ is an open-source Python library that makes it easy to create and share custom w
 - step 1:
  Install Python: Ensure you have Python installed on your computer.
 - step 2:
- Install Streamlit: Install the Streamlit library, which is required to run the app. Open your terminal or command prompt and run 
+ Install Streamlit: Install the Streamlit library, which is required to run the website. Open your terminal or command prompt and run 
  the following command 'make sure you are in the path of your project':
-     pip install streamlit
+     ####pip install streamlit
 - step 3:
  Save the Code.
 - step 4:
  Run the Code, to run the web page of the chatbot write this command in the terminal:
-      streamlit run chatbot.py 
+      ####streamlit run chatbot.py 
 - step 5:
  Your default web browser should automatically open and display the web-page.
 
