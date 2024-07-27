@@ -1,0 +1,9 @@
+Step 1:
+- download sreamlit in you terminal using this command: 'make sure you are in the path of your project':
+     pip install streamlit 
+
+Step 2: 
+- when you want to run the web page of the chatbot write this command in the terminal:
+      streamlit run chatbot.py 
+      
+*chatbot.py is the python file name
