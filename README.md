@@ -56,6 +56,6 @@ is an open-source Python library that makes it easy to create and share custom w
 
 ### Name of group members:
 - Hatoon Aloqaily
-- Musab 
+- Musab Alsobhi
 - Raghad Almalki
-- Hamad
+- Hamad Altamimi
