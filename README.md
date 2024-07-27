@@ -10,7 +10,7 @@ This idea helps users to access anything directly without taking time to search 
 4. The user also can fill a form to contact directly with the academy.
 5. If the user want to join as a trainee in the academy, he/she can select the option join as a trainee.
  
-## The important functionalities used in this project are: 
+### The important functionalities used in this project are: 
 - def display_bootcamp_details:
   
 - 
