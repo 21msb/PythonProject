@@ -12,10 +12,10 @@ This idea helps users to access anything directly without taking time to search 
 5. If the user want to join as a trainee in the academy, he/she can select the option join as a trainee.
 
 ## Tools Used in the Project:
-#### - Streamlit:
+#### Streamlit:
 Is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science.
 
-#### - Why we chose Streamlit?
+#### Why we chose Streamlit?
 1. Ease of Use.
 2. Quick Development.
 3. Interactive Widgets.
