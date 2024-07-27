@@ -44,7 +44,7 @@ Is an open-source Python library that makes it easy to create and share custom w
  Install Python: Ensure you have Python installed on your computer.
 - step 2:
  Install Streamlit: Install the Streamlit library, which is required to run the website. Open your terminal or command prompt and run 
- the following command 'make sure you are in the path of your project':
+ the following command 'make sure you are in the path of your project': \n
      **pip install streamlit**
 - step 3:
  Save the Code.
