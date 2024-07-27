@@ -246,7 +246,7 @@ if st.session_state['selected_option']:
         musaab_number = 966500283891
         hamad_number = 966550894355
         st.markdown(f"- [Raghad Almalki](https://www.linkedin.com/in/raghad-almalki-aa0aa71b2/) - {raghad_number}")
-        st.markdown(f"- [Mussab](www.linkedin.com/in/musabalsobhi) - {musaab_number} ")
+        st.markdown(f"- [Musab Alsobhi](https://www.linkedin.com/in/musabalsobhi/) - {musaab_number} ")
         st.markdown(f"- [Hatoon Aloqaily-](https://www.linkedin.com/in/hatoon-al-oqaily-73b808253/) - {hatoon_number}")
         st.markdown(f"- [Hamad Altamimi-]() - {hamad_number}")
 
